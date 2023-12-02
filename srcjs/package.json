@@ -1,0 +1,20 @@
+{
+  "name": "svelter",
+  "version": "0.0.1",
+  "description": "Use svelte in R",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "author": "Andrew Bates",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "0.19.8",
+    "esbuild-plugin-globals": "^0.2.0",
+    "esbuild-svelte": "^0.8.0"
+  },
+  "dependencies": {
+    "svelte": "^4.2.8"
+  }
+}

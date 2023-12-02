@@ -1,0 +1,5 @@
+^svelteR\.Rproj$
+^\.Rproj\.user$
+srcjs
+app.R
+^LICENSE\.md$
