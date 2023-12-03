@@ -1201,6 +1201,7 @@
   // outputs/ListBinding.js
   function svList(props) {
     svelteShinyOutput(
+      // (selector = `#${props.id}`),
       selector = ".svelte-list",
       outputName = "svList",
       component = List_default,
